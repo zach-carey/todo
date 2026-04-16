@@ -1,12 +1,105 @@
 .button1 {
     padding: 12px 24px;
-    font-size: 16px;
-    background-color: green;
+    background-color: rgb(186, 245, 242);
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+
     transform: scale(1);
-    transition: transform 0.25s ease
-    
+    transition: transform 0.25s ease;
 }
 
 .button1:hover {
     transform: scale(1.2);
+}
+
+.delete {
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color: rgb(144, 231, 247);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+
+    transform: scale(1);
+    transition: transform 0.25s ease;
+}
+
+.delete:hover {
+    transform: scale(1.1);
+}
+
+
+.taskBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    background-color: rgb(202, 237, 237);
+    border-radius: 8px;
+
+    height: 70px;
+    width: 700px; 
+    color: white;
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    cursor: pointer
+
+
+}
+
+body {
+    background-color: #f8fbff;
+
+    background-image:
+        linear-gradient(to right, rgba(0,0,0,0.08) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0,0,0,0.08) 1px, transparent 1px);
+
+    background-size: 25px 25px;
+}
+
+
+.mainbody {
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    gap: 20px;               
+}
+
+
+h1 {
+    color: lightskyblue;
+    font-weight: 900;
+    text-align: center;
+    font-size: 120px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    background-color: rgb(173, 225, 242);
+    border-radius: 8px;
+
+    font-size: 32px;
+    font-family: "Caveat", cursive;
+    color: white;
+    font-weight: bold;
+
+}
+
+input::placeholder {
+    color: rgba(90, 105, 108, 0.99);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
