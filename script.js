@@ -15,7 +15,7 @@ add.addEventListener("click", function () {
 
   newItem.textContent = taskValue;
   deleteBtn.className = "delete";
-  deleteBtn.textContent = "𝘋𝘌𝘓𝘌𝘛𝘌";
+  deleteBtn.textContent = "DELETE";
 
   taskBox.appendChild(newItem);
   taskBox.appendChild(deleteBtn);
