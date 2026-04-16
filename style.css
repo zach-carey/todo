@@ -1,0 +1,12 @@
+.button1 {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: green;
+    transform: scale(1);
+    transition: transform 0.25s ease
+    
+}
+
+.button1:hover {
+    transform: scale(1.2);
+}
