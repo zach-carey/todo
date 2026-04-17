@@ -1,7 +1,7 @@
 .button1 {
     padding: 12px 24px;
     background-color: rgb(186, 245, 242);
-    color: white;
+    color: black;
     font-weight: 700;
     font-size: 25px;
     border-radius: 8px;
@@ -20,7 +20,7 @@
     padding: 15px 20px;
     font-size: 20px;
     background-color: rgb(144, 231, 247);
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     border-radius: 8px;
     border: none;
@@ -44,7 +44,7 @@
 
     height: 70px;
     width: 700px; 
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Caveat", cursive;
     font-weight: 700;
     font-size: 50px;
@@ -93,7 +93,7 @@ h1 {
 
     font-size: 32px;
     font-family: "Caveat", cursive;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 
 }
